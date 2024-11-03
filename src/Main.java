@@ -50,12 +50,12 @@ public class Main {
             }
         }
         //Задача №6
-        savings = 0;
+        savings = 15000;
         i = 0;
         while (i < 108) {
             i++;
             savings += ((savings / 100) * 7);
-            savings += 15000;
+           // savings += 15000;
             if (i % 6 == 0) {
                 System.out.println("Месяц " + i + ", сумма накоплений равна " + savings + " рублей");
             }
